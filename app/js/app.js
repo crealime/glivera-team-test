@@ -22,9 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
 				if (i > 3 && i < 10 && window.innerWidth < 510) el.classList.add('d-none')
 				else el.classList.remove('d-none')
 			})
+			isEnd = false
+			setTimeout(() => isEnd = true, 1000)
 		}
-		isEnd = false
-		setTimeout(() => isEnd = true, 1000)
 	}
 
 	removePaginationElems()
