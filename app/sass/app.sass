@@ -194,10 +194,18 @@ button, .button
 			min-width: rem(170)
 			display: flex
 			justify-content: end
+
+			@include media(964)
+				margin-top: rem(20)
+				margin-bottom: rem(20)
+
+			@include media(800)
+				margin-top: 0
+				margin-bottom: 0
 			
 			@include media(600)
 				margin-top: rem(20)
-				margin-bottom: rem(30)
+				margin-bottom: rem(20)
 				justify-content: start
 				min-width: 100%
 
