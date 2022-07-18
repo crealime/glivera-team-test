@@ -209,7 +209,7 @@ button, .button
 
 		&_delete
 			color: $red
-			margin-right: rem(18)
+			margin-right: rem(20)
 
 			&:hover,&:focus
 				text-decoration: underline
@@ -222,7 +222,7 @@ button, .button
 
 		&_unread
 			color: $orange
-			margin-right: rem(18)
+			margin-right: rem(20)
 
 			&:hover,&:focus
 				text-decoration: underline
@@ -364,15 +364,11 @@ button, .button
 		height: rem(16)
 		border: 1px solid $white
 
-	&__avatar
+	&__avatar-box
 		position: relative
 		width: rem(40)
 		height: rem(40)
-		background-size: cover
-		background-position: center center
 		margin-right: rem(17)
-		//border-radius: 50%
-		//overflow: hidden
 
 		&_online
 			&:after
@@ -384,6 +380,16 @@ button, .button
 				right: 0
 				background: $green
 				border-radius: 50%
+
+	&__avatar
+		position: relative
+		width: rem(40)
+		height: rem(40)
+		background-size: cover
+		background-position: center center
+
+		border-radius: 50%
+		overflow: hidden
 
 	&__name
 		font-weight: bold
