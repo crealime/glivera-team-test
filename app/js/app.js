@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				else el.classList.remove('d-none')
 			})
 			isEnd = false
-			setTimeout(() => isEnd = true, 1000)
+			setTimeout(() => isEnd = true, 100)
 		}
 	}
 
